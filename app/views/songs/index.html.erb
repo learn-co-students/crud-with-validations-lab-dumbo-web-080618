@@ -1,0 +1,22 @@
+<h1>Song</h1>
+<table>
+  <tr>
+    <th>title</th>
+    <th>released</th>
+    <th>artist name</th>
+    <th>release year</th>
+    <th>genre</th>
+  </tr>
+  <tbody>
+    <% @songs.each do |song| %>
+    <tr>
+        <td><%= link_to song.title, song_path(song) %></td>
+        <td><%= song.released %></td>
+        <td><%= song.artist_name %></td>
+        <td><%= song.release_year %></td>
+        <td><%= song.genre %></td>
+      <% end %>
+    </tr> 
+  </tbody>
+
+</table>
