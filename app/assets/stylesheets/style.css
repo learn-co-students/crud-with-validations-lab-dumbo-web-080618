@@ -1,0 +1,31 @@
+h1 {
+  text-shadow: 0 0 5px red;
+  padding-left: 8px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid red;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #ff2200;
+  cursor: pointer;
+}
+
+table {
+  text-align: center;
+  margin: 5px;
+}
+
+th, td {
+  padding: 6px;
+  padding-right: 15px;
+}
