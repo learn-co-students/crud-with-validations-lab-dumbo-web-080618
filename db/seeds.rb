@@ -1,0 +1,6 @@
+Song.create(title:"yo",released:true,release_year:2016,artist_name:"YO MONEY",genre:"hip hop")
+Song.create(title:"yoo",released:false,artist_name:"YOung MONEY",genre:"rap")
+Song.create(title:"yoooo",released:true,release_year:2018,artist_name:"bad money",genre:"funk")
+Song.create(title:"yooooo",released:true,release_year:2013,artist_name:"bucci bang",genre:"rock")
+Song.create(title:"yoooo",released:true,release_year:2012,artist_name:"beef",genre:"swing")
+Song.create(title:"yoooooo",released:false,artist_name:"YOafd MONEY",genre:"hip hop")
